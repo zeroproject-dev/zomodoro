@@ -41,6 +41,8 @@ private slots:
   void updateTimer();
   void updateSettings();
 
+  void on_actionButton_clicked();
+
 private:
   Ui::MainWindowClass ui;
 

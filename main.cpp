@@ -5,7 +5,7 @@
 int main(int argc, char *argv[]) {
   QApplication a(argc, argv);
   a.setApplicationName("Zomodoro");
-  a.setApplicationVersion("2.0.0");
+  a.setApplicationVersion("2.0.1");
   a.setOrganizationName("zeroproject");
   a.setOrganizationDomain("https://zeroproject.dev");
   a.setWindowIcon(QIcon(QString(":/Logo/assets/Pomodoro.ico")));

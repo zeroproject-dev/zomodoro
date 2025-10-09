@@ -252,6 +252,11 @@ void MainWindow::onActionButtonClicked()
 	this->start();
 }
 
+void MainWindow::on_actionButton_clicked()
+{
+  this->start();
+}
+
 void MainWindow::on_stopButton_clicked()
 {
 	isPomoTime = true;
